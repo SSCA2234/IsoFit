@@ -1,9 +1,10 @@
 package legacy;
-
+/*Asignamos las disitjntas consustantes para la realiación de nuestro código*/
 public class BDConstantes {
-	final static String DRIVER ="jdbc:derby";
-	final static String CONNECTION_STRING ="jdbc:derby:iso1_db;create=true";
-	final static String DBNAME ="iso1_db";
-	final static String DBUSER ="admin";
-	final static String DBPASS ="admin";
+	final static String DRIVER ="com.mysql.cj.jdbc.Driver";
+	final static String CONNECTION_STRING ="jdbc:mysql://localhost:3306/";
+	final static String DBNAME ="usuarios";
+	final static String DBUSER ="root";
+	final static String DBPASS ="pass";
 }
+
